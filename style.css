@@ -20,6 +20,11 @@ margin: 0 auto;
 .ba-grid, img {
 	width: 100%
 }
+
+.ba-grid + .ba-grid {
+    margin-top: 20px;
+}
+
 .ba-width--1-2 {
   float: left;
 padding-left: 20px;
@@ -34,4 +39,7 @@ float: left;
    float: left;
        padding-left: 20px;
    width:  16.665%
+}
+.nopad {
+   padding-left: 0;
 }
